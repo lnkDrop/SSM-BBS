@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="bbs_biz" />
+        <module name="bbs_dao" />
+        <module name="bbs_web" />
+        <module name="bbz_web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bbs" target="1.5" />
+      <module name="bbs_biz" target="1.5" />
+      <module name="bbs_dao" target="1.5" />
+      <module name="bbs_web" target="1.7" />
+      <module name="bbz_web" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
